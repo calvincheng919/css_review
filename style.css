@@ -9,7 +9,13 @@ h1 {
   color: white;
   margin-top: 25px;
   text-align: center;
+
 }
+
+h2 {
+  color: red;
+}
+
 p {
   padding-top: 125px;
   min-height: 800px;
@@ -49,4 +55,19 @@ p {
   background-color: black;
   bottom: 50px;
   left: 50px;
+}
+
+div {
+  float: left;
+  width: 300px;
+  height: 300px;
+  outline: dotted 1px green;
+  background: black;
+}
+
+section {
+  clear: left;
+  background: red;
+  width: 900px;
+  height: 300px;
 }
